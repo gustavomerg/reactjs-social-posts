@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# About
 
-Currently, two official plugins are available:
+ReactJS application, regarding a social network interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Including:
+- Posts
+- Comments
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Technologies
+
+ - [ReactJS](https://react.dev/)
+ - [NodeJS](https://nodejs.org/en/)
+ - [phosphor-icons](https://phosphoricons.com/)
+ - [date-fns](https://date-fns.org/)
+
+
+## Demo
+
+https://github.com/gustavomerg/reactjs-notes-with-audio/assets/49318844/9fc655bc-b303-4dc2-868d-66336ee2afdb
+
+
+## Running the application
+
+To clone the application
+```bash
+  git clone git@github.com:gustavomerg/reactjs-social-posts.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+If you don't have npm installed
+
+```bash
+  npm install
+```
+
+To run in a dev environment
+```bash
+  npm run dev
+```
+
+### Deploy / Production
+
+To create the production deploy
+
+```bash
+  npm run build
+```
+To preview the production
+
+```bash
+  npm run preview
+```
