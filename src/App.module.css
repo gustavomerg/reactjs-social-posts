@@ -1,0 +1,25 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr; /* 256px tamanho fixo pra sidebar e 1fr eh flexivel pros Posts */
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+
+  /* Como a aplicação está com rem em todas as fontes e espaçamentos, ao aplicar font-size de 87.5%
+  diminui todas as fontes e espaçamentos (tudo com rem), logo, se adapta melhor para dispositivos mobile
+  */
+
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr; /* Defini que há apenas 1 coluna no grid que ocupa o tamanho todo */
+  }
+}
