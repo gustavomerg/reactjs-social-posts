@@ -19,8 +19,8 @@ Including:
 
 
 ## Demo
+https://github.com/gustavomerg/reactjs-social-posts/assets/49318844/49902493-c3f4-4503-b0e0-c1b1eddc9ebe
 
-https://github.com/gustavomerg/reactjs-notes-with-audio/assets/49318844/9fc655bc-b303-4dc2-868d-66336ee2afdb
 
 
 ## Running the application
